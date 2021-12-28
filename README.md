@@ -36,8 +36,8 @@ After 200 generations and approximately 200 seconds the result is the following 
 ![Scatter plot for Gamma function](src/Demo/gamma.png)
 
 # Results for PennML (without Friedman functions)
-nr | Instance | Moscato et al. (train) | Median MSE (train) | Stdev (train) |  | Moscato et al. (test) | Median MSE (test) |  | Stdev (test) | count
--- | -------- | ---------------------- | ------------------ | ------------- |--| --------------------- | ----------------- |--| ------------ | -----
+nr | Instance | Moscato et al. (train) | Median MSE (train) |  | Stdev (train) | Moscato et al. (test) | Median MSE (test) |  | Stdev (test) | count
+-- | -------- | ---------------------- | ------------------ |--| ------------- | --------------------- | ----------------- |--| ------------ | -----
 vineyard | 4.734 | 3.439 | 1 | 0.656 | 7.993 | 9.493 | 1 | 78.494 | 30
 auto_price | 6540000 | 7096209.604 | -1 | 1275695.969 | 7620000 | 8035568.986 | 1 | 2071094.757 | 30
 autoPrice | 6350000 | 6297275.053 | 1 | 1116406.049 | 7560000 | 7827328.823 | 1 | 6343703.564 | 30
