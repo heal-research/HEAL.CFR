@@ -72,5 +72,5 @@ nr | Instance | Moscato et al. (train) | Median MSE (train) |  | Stdev (train) |
 1096 | FacultySalry | 1.751 | 1.860 | -1 | 0.628 | 3.127 | 3.870 | 1 | 8.632 | 30
  |  |  |  |  |  |  |  |  |  | 
  |  |  |  | 11 |  |  |  | 12 |  | 
- |  |  |  | 20 |  |  |  | 19 |  | 
+ |  |  |  | 21 |  |  |  | 20 |  | 
 
