@@ -17,7 +17,8 @@ To run the demo code which tries to reproduce the result for the Gamma function 
 git clone https://github.com/heal-research/HEAL.CFR
 cd HEAL.CFR
 dotnet build
-
+cd Demo
+dotnet run
 ``` 
 
 After 200 generations and approximately 200 seconds the result is the following expression with depth=6 and an MSE of 405.6 (NMSE=36%).
