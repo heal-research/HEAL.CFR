@@ -32,8 +32,7 @@ After 200 generations and approximately 200 seconds the result is the following 
           (3.5042 + 3.4784 * x^3 + (0.66668 + -0.71069 * x^3) / 
             (-2.7499 + -0.42627 * x^3))))))
 ```
-
-The result for he Gamma function is worse than the result reported in the paper.
+The result for the Gamma function is worse than the result reported in the paper.
 
 ![Scatter plot for Gamma function](src/Demo/gamma.png)
 
