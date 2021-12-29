@@ -33,9 +33,13 @@ After 200 generations and approximately 200 seconds the result is the following 
             (-2.7499 + -0.42627 * x^3))))))
 ```
 
+The result for he Gamma function is worse than the result reported in the paper.
+
 ![Scatter plot for Gamma function](src/Demo/gamma.png)
 
 # Results for PennML (without Friedman functions)
+The following table shows the median MSE values from 30 runs on a part of the PennML problems. When compared to the results reported by Moscato et al. the implementation produces better results on the training set and worse result on the test set. A cause for the difference could be that HEAL.CFR does not stop early when the Nelder-Mead Simplex optimization stagnates.
+
 nr  | Instance | Moscato et al. (train) | Median MSE (train) | Stdev (train) | Moscato et al. (test) | Median MSE (test) | Stdev (test) | count
 --: | :------: | ---------------------: | -----------------: | ------------: | --------------------: | ----------------: | -----------: | ----:
 192 | vineyard | 4.734 | **3.439** | 0.656 | **7.993** | 9.493 | 78.494 | 30
